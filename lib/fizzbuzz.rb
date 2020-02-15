@@ -2,7 +2,7 @@ class Fizzbuzz
   def calculate number
     if number.to_s.include? '7'
       'GitHub'
-    elseif number % 3 == 0 && number % 5 == 0
+    elsif number % 3 == 0 && number % 5 == 0
       'fizzbuzz'
     elsif number % 3 == 0
       'fizz'
